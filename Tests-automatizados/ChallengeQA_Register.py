@@ -80,7 +80,7 @@ class Testchallengeqa():
 
         # Verificar que aparece un mensaje de error
         error_message = self.driver.find_element(By.XPATH, "// label[ @ id = 'msg']").text
-        assert error_message == "INVALID"
+        assert error_message == "REQUIRED"
 
     # Tets 5 Registro sin contraseña
     def test_register_empty_password(self, send=None):
