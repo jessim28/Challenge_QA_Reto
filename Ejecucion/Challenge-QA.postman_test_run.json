@@ -1,0 +1,202 @@
+{
+	"id": "3a88bd4b-b9ae-48ea-99b4-f279436e41e8",
+	"name": "Challenge-QA",
+	"timestamp": "2024-10-23T19:38:19.210Z",
+	"collection_id": "7204123-0b4cd71a-c7c5-4abd-9c7f-b266d81117fa",
+	"folder_id": 0,
+	"environment_id": "7204123-9e991b76-ff5c-474b-ab6d-f3b4f1a8ab2d",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-10-23T19:38:18.707Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "01d8b6b6-2637-4887-9611-9b3e14aecb87",
+			"name": "Ingreso-registro",
+			"url": "http://localhost:4000/register",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				2,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "09390903-b7a1-4c01-8d9b-741171dd294d",
+			"name": "Crear-Registro",
+			"url": "http://localhost:3000/register",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				2,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5b6d0647-e062-49a2-bb36-0f5e46cdf27a",
+			"name": "Crear-Registro-erroneo",
+			"url": "http://localhost:3000/register",
+			"time": 2,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2,
+				1,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "2c0e406f-0cec-4129-b40b-57272d76c737",
+			"name": "Ingreso-login",
+			"url": "http://localhost:4000/login",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2,
+				2,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "a51fde4c-f38b-4504-aeaa-f954626af07f",
+			"name": "Login",
+			"url": "http://localhost:3000/login",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2,
+				2,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "08cd1b72-adbc-44bd-a3a2-91b80a9bcf3b",
+			"name": "Login-erroneo",
+			"url": "http://localhost:3000/login",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2,
+				2,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 61,
+	"collection": {
+		"requests": [
+			{
+				"id": "01d8b6b6-2637-4887-9611-9b3e14aecb87",
+				"method": "GET"
+			},
+			{
+				"id": "09390903-b7a1-4c01-8d9b-741171dd294d",
+				"method": "POST"
+			},
+			{
+				"id": "5b6d0647-e062-49a2-bb36-0f5e46cdf27a",
+				"method": "POST"
+			},
+			{
+				"id": "2c0e406f-0cec-4129-b40b-57272d76c737",
+				"method": "GET"
+			},
+			{
+				"id": "a51fde4c-f38b-4504-aeaa-f954626af07f",
+				"method": "POST"
+			},
+			{
+				"id": "08cd1b72-adbc-44bd-a3a2-91b80a9bcf3b",
+				"method": "POST"
+			}
+		]
+	}
+}
